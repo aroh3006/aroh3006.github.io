@@ -86,11 +86,11 @@ export default function Navbar() {
           <nav
             style={{
               border: '1px solid var(--border-subtle)',
-              padding: '10px 28px',
+              padding: '10px 20px',
             }}
             aria-label="Main navigation"
           >
-            <ul className="flex items-center" style={{ gap: 28 }}>
+            <ul className="flex items-center" style={{ gap: 16 }}>
               {navItems.map((item) => (
                 <li key={item.id}>
                   <button

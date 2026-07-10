@@ -143,7 +143,7 @@ body {
 .heading-hero {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: clamp(2.6rem, 5.5vw, 5rem);
+  font-size: clamp(1.9rem, 3.6vw, 3.2rem);
   line-height: 1.12;
   letter-spacing: -0.025em;
 }
@@ -198,10 +198,10 @@ body {
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 13px 26px;
+  padding: 10px 20px;
   border: 1px solid var(--text-primary);
   font-family: var(--font-display);
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   font-weight: 500;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -227,9 +227,9 @@ body {
    ================================================ */
 .nav-link {
   font-family: var(--font-display);
-  font-size: 0.82rem;
+  font-size: 0.72rem;
   font-weight: 500;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-primary);
   opacity: 0.5;
@@ -238,6 +238,8 @@ body {
   display: flex;
   align-items: center;
   gap: 0;
+  line-height: 1;
+  white-space: nowrap;
 }
 
 .nav-link:hover,
@@ -247,16 +249,16 @@ body {
 
 .nav-link .nav-num {
   font-family: var(--font-mono);
-  font-size: 0.62rem;
+  font-size: 0.55rem;
   opacity: 0.8;
   margin-right: 2px;
 }
 
 .nav-link .nav-label {
   font-family: var(--font-display);
-  font-size: 0.82rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.06em;
 }
 
 /* ================================================

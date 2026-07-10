@@ -27,17 +27,17 @@ export default function Hero() {
         justifyContent: 'center',
         position: 'relative',
         zIndex: 1,
-        paddingTop: 120,
-        paddingBottom: 80,
+        paddingTop: 100,
+        paddingBottom: 60,
       }}
     >
       <div className="container-main" style={{ width: '100%' }}>
 
         {/* Main editorial text block — max-width for comfortable reading */}
-        <div style={{ maxWidth: 980, marginBottom: 56 }}>
+        <div style={{ maxWidth: 980, marginBottom: 40 }}>
 
           {/* Primary sentence */}
-          <div style={{ marginBottom: 36 }}>
+          <div style={{ marginBottom: 24 }}>
             {heroPrimary.map((line, i) => (
               <div key={i} className="text-reveal-wrapper">
                 <h1
@@ -60,7 +60,7 @@ export default function Hero() {
                   className="text-reveal-inner heading-hero"
                   style={{
                     color: 'var(--accent)',
-                    fontSize: 'clamp(1.8rem, 3.8vw, 3.5rem)',
+                    fontSize: 'clamp(1.2rem, 2.4vw, 2.2rem)',
                   }}
                 >
                   {line}
@@ -86,7 +86,7 @@ export default function Hero() {
         >
           {/* Name block */}
           <div style={{ display: 'flex', flexDirection: 'column', gap: 5 }}>
-            <p className="label-mono" style={{ color: 'var(--accent)' }}>Portfolio — 2026</p>
+            <p className="label-mono" style={{ color: 'var(--accent)' }}>Portfolio</p>
             <p style={{
               fontFamily: 'var(--font-display)',
               fontWeight: 700,
