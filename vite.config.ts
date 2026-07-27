@@ -9,7 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'index.html'),
-        writeups: resolve(__dirname, 'writeups.html')
+        writeups: resolve(__dirname, 'writeups.html'),
+        'fam-ctf-2026': resolve(__dirname, 'writeups/fam-ctf-2026.html'),
       }
     }
   }
