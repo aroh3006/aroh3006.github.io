@@ -35,7 +35,7 @@ export const experiences = [
     id: "adlerqa",
     company: "AdlerQA Technologies Pvt. Ltd.",
     role: "Cybersecurity Intern",
-    period: "June 2026 – Present",
+    period: "June 2026 – July 2026",
     description:
       "Conducting authorized vulnerability assessments of WardenIQ. Performing API security testing using Burp Suite, and testing authentication, authorization, and session management flows. Reviewing application security against OWASP Top 10 and conducting IDOR testing and vulnerability validation.",
     technologies: [
