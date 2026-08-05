@@ -361,6 +361,9 @@ html.lenis { height: auto; }
   overflow: hidden;
   transition: border-color 0.3s ease;
   cursor: none;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .project-card::before {

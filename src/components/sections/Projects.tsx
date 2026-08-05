@@ -78,6 +78,7 @@ export default function Projects() {
                 lineHeight: 1.65,
                 marginBottom: 32,
                 fontWeight: 400,
+                flexGrow: 1,
               }}>
                 {project.tagline}
               </p>

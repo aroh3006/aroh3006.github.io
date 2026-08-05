@@ -47,7 +47,7 @@ export const experiences = [
       "IDOR Testing",
       "Session Management",
     ],
-    certificate: "/certificates/adlerqa-internship.pdf",
+    certificate: "/certificates/Aroh Maurya - AdlerQA Internship Certificate.pdf",
   },
   {
     id: "internloom",
@@ -55,7 +55,7 @@ export const experiences = [
     role: "Intern",
     period: "2025",
     description:
-      "• Grew engagement by 3× and followers by 40% over six months through a consistent cross-platform strategy across LinkedIn, Instagram and YouTube.\n• Led content calendar planning using trend forecasting, hashtag analysis and AI-assisted copywriting.\n• Managed and coordinated the content team to ensure consistent delivery and audience growth.",
+      "Grew engagement by over 3× and followers by 40% through a consistent cross-platform content strategy across LinkedIn, Instagram, and YouTube. Led content calendar planning using trend forecasting, hashtag analysis, and AI-assisted copywriting while coordinating the content team to ensure consistent delivery and sustained audience growth.",
     technologies: [],
     certificate: "/certificates/internloom-internship.pdf",
   },
