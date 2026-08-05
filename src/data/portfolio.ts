@@ -251,7 +251,7 @@ export const leadership = [
     organization: "Dr. Virendra Swarup Education Centre",
     period: "2021 – 2022",
     description:
-      "Captain of the school basketball team, leading strategy, team development, and competitive performance at the institutional level.",
+      "Captain of the house basketball team, leading strategy, team development, and competitive performance at the institutional level.",
   },
 ];
 
